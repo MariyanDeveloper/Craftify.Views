@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Craftify.Views", "src\Craftify.Views\Craftify.Views.csproj", "{5718AEA1-CDDB-4E7A-8DE2-2ACCF3E518B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Craftify.Views.Tests", "Craftify.Views.Tests\Craftify.Views.Tests.csproj", "{63BBD1AD-D45D-4F14-9863-9F1D7FFA6C1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Craftify.Views.Tests", "src\Craftify.Views.Tests\Craftify.Views.Tests.csproj", "{63BBD1AD-D45D-4F14-9863-9F1D7FFA6C1D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Craftify.Views.Samples", "src\Craftify.Views.Samples\Craftify.Views.Samples.csproj", "{09D1B8AB-C0B4-43D9-982E-1E453CA26EE5}"
 EndProject
