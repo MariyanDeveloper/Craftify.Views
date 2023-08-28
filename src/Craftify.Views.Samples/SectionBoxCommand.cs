@@ -3,9 +3,8 @@ using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Craftify.Geometry.Extensions;
 using Craftify.Views.ViewBuilders;
-using Craftify.Views.ViewBuilders.Settings;
 
-namespace Craftify.Views.Commands;
+namespace Craftify.Views.Samples;
 
 [Transaction(TransactionMode.Manual)]
 [Regeneration(RegenerationOption.Manual)]
@@ -28,9 +27,6 @@ public class SectionBoxCommand : IExternalCommand
             .First(v => v.ViewFamily == ViewFamily.Section).Id;
         var curve = (element.Location as LocationCurve).Curve;
         var vector = curve.GetNormalizedVector();
-        var locationLength = 3;
-        var height = 7;
-        var farClip = 5;
         using (var transaction = new Transaction(document, "Visualize"))
         {
             transaction.Start();
