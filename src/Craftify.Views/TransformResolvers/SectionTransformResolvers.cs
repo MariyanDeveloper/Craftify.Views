@@ -1,4 +1,4 @@
-﻿namespace Craftify.Views.TransformFactories;
+﻿namespace Craftify.Views.TransformResolvers;
 
 public static class SectionTransformResolvers
 {

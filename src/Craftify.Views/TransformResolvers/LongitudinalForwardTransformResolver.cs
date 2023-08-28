@@ -2,7 +2,7 @@
 using Craftify.Geometry.Extensions;
 using Craftify.Geometry.VectorAlignments;
 
-namespace Craftify.Views.TransformFactories;
+namespace Craftify.Views.TransformResolvers;
 
 public class LongitudinalForwardTransformResolver : ISectionTransformResolver
 {

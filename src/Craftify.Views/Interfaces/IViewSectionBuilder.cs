@@ -6,5 +6,5 @@ namespace Craftify.Views.Interfaces;
 
 public interface IViewSectionBuilder
 {
-    ViewSection Build(Document document, Action<ViewSettingsBuilder> configSettings);
+    ViewSection Build(Document document, Action<ViewSettingsDescriptor> configSettings);
 }

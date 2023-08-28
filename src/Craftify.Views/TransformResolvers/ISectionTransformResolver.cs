@@ -1,6 +1,6 @@
 ﻿using Autodesk.Revit.DB;
 
-namespace Craftify.Views.TransformFactories;
+namespace Craftify.Views.TransformResolvers;
 
 public interface ISectionTransformResolver
 {

@@ -6,9 +6,9 @@ namespace Craftify.Views.Interfaces;
 
 public interface IViewSettingBuildStage
 {
-    ViewSettingsBuilder WithCropDimension(CropDimension cropDimension);
-    ViewSettingsBuilder DirectTo(XYZ facingVector, Action<DirectToOptions>? configDirectToOptions = null);
-    ViewSettingsBuilder PlaceAt(XYZ origin);
-    ViewSettingsBuilder OfViewTypeId(ElementId viewTypeId);
+    ViewSettingsDescriptor WithCropDimension(CropDimension cropDimension);
+    ViewSettingsDescriptor DirectTo(XYZ facingVector, Action<DirectToOptions>? configDirectToOptions = null);
+    ViewSettingsDescriptor PlaceAt(XYZ origin);
+    ViewSettingsDescriptor OfViewTypeId(ElementId viewTypeId);
     ViewSectionSettings Build();
 }
