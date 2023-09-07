@@ -3,9 +3,16 @@
     <PropertyGroup>
         <TargetFramework>net48</TargetFramework>
         <OutputType>Library</OutputType>
-        <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>latest</LangVersion>
+        <Title>Craftify.Views</Title>
+        <Description>A streamlined library for Autodesk Revit developers, enabling effortless creation of views using the Revit API.</Description>
+        <PackageProjectUrl>https://github.com/MariyanDeveloper/Craftify.Views</PackageProjectUrl>
+        <PackageIcon>Craftify.png</PackageIcon>
+        <RepositoryUrl>https://github.com/MariyanDeveloper/Craftify.Views</RepositoryUrl>
+        <RepositoryType>github</RepositoryType>
+        <PackageTags>RevitAPI,ViewSection,Views,C#</PackageTags>
+        <Version>1.1.0</Version>
         <!-- Add these lines -->
 <!--        <PackageId>Craftify.Views</PackageId>-->
 <!--        <Version>1.0.0</Version>-->
@@ -20,9 +27,15 @@
 <!--        <AssemblyName>$(PackageId)$(PackageAssemblyVersion)</AssemblyName>-->
 <!--    </PropertyGroup>-->
     <ItemGroup>
-        <PackageReference Include="Craftify.Geometry" Version="1.0.0" />
+        <PackageReference Include="Craftify.Geometry" Version="2.0.0" />
         <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="2023.0.0" />
-        <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="..\..\..\ProductInformation\Craftify.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+        <Link>Craftify.png</Link>
+      </None>
     </ItemGroup>
 
 

@@ -1,2 +1,3 @@
 # Craftify.Views
-This project enables you create ViewSections with ease
+A streamlined library for Autodesk Revit developers, enabling effortless creation of views using the Revit API.
+~~~~

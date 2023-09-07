@@ -1,7 +1,9 @@
-﻿using Autodesk.Revit.DB;
+﻿using System;
+using Autodesk.Revit.DB;
 using Craftify.Geometry.Builders;
 using Craftify.Geometry.Enums;
 using Craftify.Geometry.Extensions;
+using Craftify.Geometry.Extensions.BoundingBoxes;
 using Craftify.Views.TransformResolvers;
 using Craftify.Views.ViewBuilders.Settings;
 

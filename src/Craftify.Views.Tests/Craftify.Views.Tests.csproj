@@ -3,7 +3,6 @@
     <PropertyGroup>
         <TargetFramework>net48</TargetFramework>
         <OutputType>Library</OutputType>
-        <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>latest</LangVersion>
         <!-- Add these lines -->
@@ -21,7 +20,6 @@
 <!--        </PropertyGroup>-->
     <ItemGroup>
         <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="2023.0.0" />
-        <PackageReference Include="System.Net.Http" Version="4.3.4" />
         <PackageReference Include="xUnitRevitUtils.2023" Version="1.0.7" />
     </ItemGroup>
     <ItemGroup>
